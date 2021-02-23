@@ -1,0 +1,59 @@
+{
+    "root":"/Users/Fahim/Fahim/maxis-logistics-management-portal/src/main/java/maxis/logistics/management/maxislogisticsmanagementportal",
+    "name": "zone",
+    "layer": [
+        {
+            "name":"adapter",
+            "layer":[
+                {
+                    "name":"in",
+                    "layer": [
+                        {
+                            "name":"controller",
+                            "layer":[]
+                        },
+                        {
+                            "name":"model.mongo",
+                            "layer":[]
+                        }
+                    ]
+                },
+                {
+                    "name": "out",
+                    "layer": [
+                        {
+                            "name":"model.mongo",
+                            "layer":[]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "application",
+            "layer": [
+                {
+                    "name": "port",
+                    "layer": [
+                        {
+                            "name":"in",
+                            "layer":[]
+                        },
+                        {
+                            "name":"out",
+                            "layer":[]
+                        }
+                    ]
+                },
+                {
+                    "name": "service",
+                    "layer": []
+                }
+            ] 
+        },
+        {
+            "name":"domain",
+            "layer":[]
+        }
+    ]
+}
